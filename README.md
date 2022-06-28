@@ -6,3 +6,5 @@
 - Included with standard rustup
 
 cargo new project-title
+cargo run
+cargo build --release
