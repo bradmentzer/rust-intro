@@ -7,14 +7,14 @@
 // signed (i8) this is -128 -> 127
 
 fn main() {
-    let x: u8 = -10; // rust will prevent negative
-    println!("x is {}", x);
+    // let x: u8 = -10; // rust will prevent negative
+    // println!("x is {}", x);
 }
-fn main() {
-    let x: u8 = 1000; // rust will prevent overflow
-    println!("x is {}", x);
+fn overflow() {
+    // let x: u8 = 1000; // rust will prevent overflow
+    // println!("x is {}", x);
 }
-fn main() {
+fn compile() {
     let mut x: u8 = 255;
     x = x + 1; // rust will compile then abort at line 3 from overflow
     println!("x is {}", x);
@@ -26,45 +26,45 @@ fn main() {
 // Fractional component has finite signicant value
 // Precise up to 6-9 or 15-17 digits respectivley
 
-fn main() {
+fn float() {
     let x = 10.0; //stored as f64 by defualt but will print as int
     println!("x is {}", x)
 }
 
-fn main() {
+fn float_32() {
     let x: f32 = 10.123; //stored as f32 by defualt but will print as int
     println!("x is {}", x);
 }
 
-fn main() {
+fn sig_digit() {
     let a = 10;
     let b = 3;
     let c = a / b;
     println!("c is {:.3}", c); // will print to three significant digits
 }
 
-fn main() {
+fn sig_fig() {
     let a = 10;
     let b = 3;
     let c = a / b;
     println!("c is {:8.3}", c); // will print 8 spaces before decimel
 }
 
-fn main() {
+fn sig_fig_0() {
     let a = 10;
     let b = 3;
     let c = a / b;
     println!("c is {:08.3}", c); // will print 8 leading 0's before decimel
 }
 
-fn main() {
+fn break_ex() {
     let a = 10;
     let b = 3;
     let c = a / b;
     println!("c is {:08.3}\na is {}", c, a);
 }
 
-fn main() {
+fn arrangement() {
     let a = 10;
     let b = 3;
     let c = a / b;
