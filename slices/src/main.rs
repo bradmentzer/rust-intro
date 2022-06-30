@@ -40,7 +40,7 @@ fn get_first_word(s: &String) -> &str {
             return &s[..index]; //found a space
         }
     }
-    &s //no spaces found; input is a single word
+    &s //no s paces found; input is a single word
 }
 
 fn trim() {}
