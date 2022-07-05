@@ -2,6 +2,7 @@ fn main() {
     if_true();
     if_not_true();
     if_multiple_conditions();
+    if_shorthand();
 }
 fn if_true() {
     let x = 4;

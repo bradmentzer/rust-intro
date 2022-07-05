@@ -9,6 +9,15 @@
 fn main() {
     // let x: u8 = -10; // rust will prevent negative
     // println!("x is {}", x);
+    overflow();
+    compile();
+    float();
+    float_32();
+    sig_digit();
+    sig_fig();
+    sig_fig_0();
+    break_ex();
+    arrangement();
 }
 fn overflow() {
     // let x: u8 = 1000; // rust will prevent overflow

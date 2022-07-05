@@ -13,6 +13,8 @@ fn main() {
     stack();
     string();
     ownership();
+    clone_ownership();
+    ownership_issue();
     integer_stack_ownership();
     transfering_ownership_int();
     transfering_ownership_string();
